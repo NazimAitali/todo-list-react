@@ -1,0 +1,32 @@
+.elem {
+  display: flex;
+  justify-content: space-between;
+  background: #f7f4e9;
+  margin-bottom: 1%;
+  width: 40vw;
+  padding: 2%;
+  height: 4vh;
+  align-items: center;
+}
+.text {
+  display: flex;
+  justify-content:flex-start;
+  align-items: center;
+  width: 50%;
+  font-size: 1.2em;
+  font-weight: 500;
+}
+.btn-delete {
+  color: #000000;
+  width: 15% !important;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.btn-delete:hover {
+  color: #e70e2e;
+  font-size: 1.2em;
+  transition: 0.3s;
+}
+.checked:hover{
+  color: #438945;
+}
